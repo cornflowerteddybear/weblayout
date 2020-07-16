@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('../fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gilroy', sans-serif;
+}
+
+a {
+	color: inherit; 
+  text-decoration: none;
+}
+ 
+/* Главная страница сайта Skillbox */
+
+.main-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+h1 {
+  margin: 60px;
+  color: white;
+  font-family: ‘Graphik LCG’, sans-serif;             
+}
+
+.button_1 {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;   
+  display: inline-block;
+}
+
+.button_2 {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;       
+  display: inline-block;
+}
+
+/* Страница "Информация о курсе */
+
+.container {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1170px;
+}
+
+.icon_return { /* Иконка в виде стрелки */
+  background-position: left center;
+  max-width: 50px;    
+  padding-left: 30px;
+}
+
+.link_back {
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+h2 {
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+  margin-top: 100px;
+}
+
+.header { /* Все h3 заголовки */
+  margin-bottom: 25px;
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;  
+  margin-top: 100px;
+}
+
+.list {
+  font-size: 18px;
+  padding-left: 200px;
+}
+
+.line { /* Ссылка в первом списке */
+  text-decoration: underline;    
+  color: #2f1ce4;
+}
+
+.text { /* Оформление параграфов */
+  padding-left: 180px;  
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  text-align: center;  
+  width: 100%;  
+  display: inline-block;  
+}
+
+.new_img {
+  max-width: 800px;
+}
+
+ul li {
+  color: #2f1ce4; /* Цвет маркера */ 
+}
+
+li span {
+  color: #000000; /* Цвет текста в списке */
+}
+
+.header_sheet {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.sheet {
+  padding: 10px;
+  border: 1px solid;
+  border-color: #a0a0a0;
+  border-collapse: collapse;  
+  margin-top: 100px;
+}
+
+.blue {
+  padding: 10px; 
+  color: #2f1ce4;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
